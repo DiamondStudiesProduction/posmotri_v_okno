@@ -63,7 +63,7 @@ ol {
 
 .content__list {
   height: 300px;
-  overflow: scroll;
+  overflow: hidden;
   margin-top: 26px;
 }
 
@@ -85,6 +85,7 @@ ol {
   width: 711px;
   height: 386px;
   object-fit: cover;
+  object-position: center;
 }
 
 .content__accent {
@@ -94,6 +95,8 @@ ol {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .content__video-card {
@@ -149,6 +152,7 @@ input[type="checkbox"] + .search-form__pseudo-checkbox {
   height: 19px;
   display: inline-block;
   cursor: pointer;
+  appearance: none;
 }
 
 input[type="checkbox"]:checked + .search-form__pseudo-checkbox {
@@ -187,6 +191,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox {
   font-size: 18px;
   width: 225px;
   color: white;
+  appearance: none;
 }
 
 .search-form__textfield::placeholder {
