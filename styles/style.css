@@ -186,6 +186,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox {
   background: rgba(0, 0, 0, 0);
   font-size: 18px;
   width: 225px;
+  color: white;
 }
 
 .search-form__textfield::placeholder {
