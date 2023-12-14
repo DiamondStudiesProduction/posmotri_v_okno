@@ -106,7 +106,7 @@ ol {
   justify-content: space-between;
 }
 
-.content__video-card-description-container{
+.content__video-card-description-container {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -144,7 +144,7 @@ ol {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 0.90;
+  line-height: 0.9;
 }
 
 .content__card-link {
@@ -248,4 +248,3 @@ ol {
 .content__card-link_current {
   background-color: #545050;
 }
-
