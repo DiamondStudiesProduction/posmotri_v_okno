@@ -58,7 +58,6 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding-block-start: 16px;
 }
 
 .content__list {
@@ -116,6 +115,7 @@ ol {
   inline-size: 711px;
   block-size: 386px;
   position: relative;
+  margin-block-end: 16px;
 }
 
 .search-form__fieldset-title {
@@ -200,6 +200,7 @@ ol {
   inline-size: 225px;
   color: #fff;
   appearance: none;
+  cursor: pointer;
 }
 
 .search-form__textfield::placeholder {
@@ -219,9 +220,12 @@ ol {
 }
 
 .button:hover,
-.content__card-link:hover,
-.search-form__textfield:hover {
+.content__card-link:hover {
   text-decoration: underline;
+}
+
+.search-form__textfield:hover {
+  cursor: text;
 }
 
 .content__card-link:focus,
@@ -230,9 +234,9 @@ ol {
   outline: none;
 }
 
-.content__card-link:has(:focus-visible),
-.button:has(:focus-visible),
-.search-form__textfield:has(:focus-visible) {
+.content__card-link:focus-visible,
+.button:focus-visible,
+.search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
 }
 
